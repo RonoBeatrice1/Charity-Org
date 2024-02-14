@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: cream;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .logo-image {
+    margin-right: 0;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .logo-text {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 83, 20);
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: darkred;
+  }
+  
+  /* .sign-up-button {
+    margin-right: 30px;
+    padding: 15px 25px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color:rgb(255, 83, 20);
+    margin-right: 30px;
+  } */
+  
+  .donate-btn {
+    position: relative;
+    background-color:rgb(255, 83, 20);
+    color: #000;
+    padding: 0.5px;
+    margin: 10px;
+    border-radius: 0px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  }
+  
+  .span-btn {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .span-btn::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .donate-btn:hover .span-btn {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  svg:hover span,
+  svg:hover .span-btn {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donate-btn:hover,
+  .donate-btn:hover .span-btn,
+  .donate-btn:hover .span-btn::before {
+    background: linear-gradient(320deg, rgb(228, 128, 91), rgb(214, 31, 7));
+    color: #ffffff;
+  }
+
+  .donate-btn a{
+    text-decoration: none;
+    color: black;
+  }
+
+  
