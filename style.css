@@ -13,7 +13,7 @@ body{
 header {
     display: flex;
     position: sticky;
-    top: 20px;
+    top: 0;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
