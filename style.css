@@ -11,6 +11,7 @@ body{
 /* Header */
 header {
     display: flex;
+    position: sticky;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -145,4 +146,69 @@ header {
     color: black;
   }
 
+  /* info */
+
+#typed {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .info-container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+  }
+  
+  .sub-info-container .info {
+    width: 45%;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .sub-info-container .info h1 {
+    font-size: 35px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .sub-info-container .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .sub-info-container .info button {
+    border: 0;
+    border-radius: 0px;
+    padding: 18px 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(255, 83, 20);
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  .info-container .image {
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+  }
+  
+  .info-container .image img {
+    max-width: 100%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
   
